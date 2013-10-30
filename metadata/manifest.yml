@@ -47,7 +47,6 @@ Version-Overrides:
       Mappings:
       - Frontend: '2303'
         Backend
-Install-Build-Required: false
 #Source-Url: file:///root/mockplugin2/
 #Source-Url: file:///root/mockplugin2//root/test/mockplugin2
 #Source-Md5: a6563fcd4cff2e16e75510faa51d59f69bddd33b
