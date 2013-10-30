@@ -1,4 +1,3 @@
----
 Name: mock-plugin
 Cartridge-Short-Name: MOCK_PLUGIN
 Display-Name: Mock Plugin Cartridge 0.1
@@ -10,7 +9,7 @@ Versions:
 License: ASL 2.0
 Vendor: Red Hat
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: redhat
+Cartridge-Vendor: ccy
 Categories:
 - service
 - database
@@ -32,7 +31,12 @@ Endpoints:
   Private-Port-Name: EXAMPLE_PORT1
   Private-Port: 8080
   Public-Port-Name: EXAMPLE_PUBLIC_PORT1
-  Protocols: [tcp]
+  Protocols: 
+#Source-Url: file:///root/mockplugin2/
+#Source-Md5: 51126f088c66ea6f8703a9e82e1155bb
+#Source-Url: https://github.com/chunyunchen/mockplugin2/raw/master/mockplugin2.tar.gz
+Source-Url: https://github.com/chunyunchen/mockplugin2.git
+#Source-Url: git://github.com/chunyunchen/mockplugin2.git
 Version-Overrides:
   '0.2':
     Display-Name: Mock Plugin Cartridge 0.2
